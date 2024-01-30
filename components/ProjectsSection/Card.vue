@@ -2,7 +2,7 @@
 	<a
 		:href="link"
 		:class="transitionClass"
-		class="group/project p-4 -ml-4 md:dark:hover:bg-slate-700 md:hover:bg-slate-200 rounded-lg"
+		class="group/project md:p-4 md:-ml-4 md:-mt-4 md:dark:hover:bg-slate-700 md:hover:bg-slate-200 rounded-lg"
 	>
 		<div class="flex md:flex-row flex-col-reverse gap-y-3">
 			<div class="md:w-1/4 w-full">
