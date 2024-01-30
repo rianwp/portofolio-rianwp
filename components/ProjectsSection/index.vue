@@ -30,7 +30,7 @@ const projects: ProjectCard[] = [
 	{
 		title: "Margajaya App",
 		description:
-			"I've' developed a project for a Margajaya badminton court rental application. This application can provide information about available court and allows users to book those available fields. This application integrated with midtrans as payment gateway.",
+			"I've developed a project for a Margajaya badminton court rental application. This application can provide information about available court and allows users to book those available fields. This application integrated with midtrans as payment gateway.",
 		image: "/img/margajaya.png",
 		link: "https://margajaya.vercel.app/",
 		skills: [
