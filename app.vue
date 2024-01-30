@@ -1,6 +1,6 @@
 <template>
 	<Html class="scroll-smooth" :class="darkMode ? 'dark' : undefined">
-		<Title>I'm Adrian</Title>
+		<Title>Hi, I'm Adrian</Title>
 		<Body
 			class="font-inter bg-white dark:bg-slate-800 h-screen w-full dark:text-white/75 text-slate-700"
 		>
