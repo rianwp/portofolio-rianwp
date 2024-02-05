@@ -21,6 +21,7 @@
 					<AboutSection />
 					<ExperienceSection />
 					<ProjectsSection />
+					<MadeWith />
 				</div>
 			</div>
 		</Body>
