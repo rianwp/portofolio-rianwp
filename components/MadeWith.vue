@@ -1,28 +1,21 @@
 <template>
 	<p class="text-sm">
 		Made with
-		<a
-			href="https://nuxt.com/"
-			:class="[linkSecondaryClass, titleClass]"
-			class="dark:hover:text-blue-200"
+		<a href="https://nuxt.com/" :class="[linkSecondaryHoverClass, titleClass]"
 			>Nuxt 3</a
 		>
 		and
 		<a
 			href="https://tailwindcss.com/"
-			:class="[linkSecondaryClass, titleClass]"
-			class="dark:hover:text-blue-200"
+			:class="[linkSecondaryHoverClass, titleClass]"
 			>Tailwind CSS</a
 		>, deployed with
-		<a
-			href="https://vercel.com/"
-			:class="[linkSecondaryClass, titleClass]"
-			class="dark:hover:text-blue-200"
+		<a href="https://vercel.com/" :class="[linkSecondaryHoverClass, titleClass]"
 			>Vercel</a
 		>
 	</p>
 </template>
 
 <script setup lang="ts">
-const { linkSecondaryClass, titleClass } = useTailwindClasses()
+const { linkSecondaryHoverClass, titleClass } = useTailwindClasses()
 </script>

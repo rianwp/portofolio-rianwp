@@ -12,6 +12,7 @@ const useTailwindClasses = () => {
 		titleClass: "dark:text-white font-semibold",
 		sectionBottomClass: "xl:pb-10 lg:pb-10 md:pb-6 pb-4",
 		linkSecondaryClass: `dark:hover:text-white hover:text-blue-500 cursor-pointer w-fit ${utilityClasses.transitionClass}`,
+		linkSecondaryHoverClass: `dark:hover:text-blue-200 hover:text-blue-500 cursor-pointer w-fit ${utilityClasses.transitionClass}`,
 	}
 	return {
 		...utilityClasses,
