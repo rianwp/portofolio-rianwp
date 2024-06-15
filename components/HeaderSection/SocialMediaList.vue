@@ -15,6 +15,7 @@
 				:class="shadowButtonClass"
 				:href="socialMedia.link"
 				:key="socialMedia.name"
+				target="_blank"
 			>
 				<font-awesome-icon :icon="['fab', socialMedia.name]" size="xl" />
 			</a>

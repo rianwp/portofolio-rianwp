@@ -2,6 +2,7 @@
 	<a
 		:href="link"
 		:class="transitionClass"
+		target="_blank"
 		class="group/project md:p-4 md:-ml-4 md:-mt-4 p-2 -ml-2 -mt-2 md:w-[calc(100%+32px)] w-[calc(100%+16px)] dark:hover:bg-slate-700 hover:bg-slate-200 rounded-lg"
 	>
 		<div class="flex md:flex-row flex-col-reverse gap-y-3">
