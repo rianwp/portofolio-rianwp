@@ -34,7 +34,7 @@ const experiences: ExperienceCard[] = [
 		description:
 			"I'm currently working at Suitmedia Digital Agency as a Frontend Developer Intern. I work in a team, developing some project, based by client request for the Frontend Web.",
 		attachments: [],
-		skills: ["Web Development", "Teamwork"],
+		skills: ["Nuxt.js", "Vue.js", "GitLab", "SCSS"],
 		startDate: "Feb 2024",
 	},
 	{
