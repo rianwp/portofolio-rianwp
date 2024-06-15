@@ -3,6 +3,7 @@
 		:href="link"
 		class="flex flex-row items-center gap-x-1.5 text-sm"
 		:class="linkSecondaryClass"
+		target="_blank"
 	>
 		<font-awesome-icon :icon="['fas', 'link']" size="sm" />
 		<p>
