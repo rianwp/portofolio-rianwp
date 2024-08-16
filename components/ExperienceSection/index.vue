@@ -17,72 +17,82 @@
 </template>
 
 <script setup lang="ts">
-import type { ExperienceCard } from "~/types/ExperienceCard"
+import type { ExperienceCard } from '~/types/ExperienceCard'
 
 const experienceSection = ref<HTMLElement | null>(null)
 const { sectionClass, titleClass } = useTailwindClasses()
 const { setSectionPosition } = useSectionPosition()
 
 onMounted(() => {
-	setSectionPosition(experienceSection, "experience")
+	setSectionPosition(experienceSection, 'experience')
 })
 
 const experiences: ExperienceCard[] = [
 	{
-		role: "Frontend Developer",
-		place: "Suitmedia Digital Agency",
+		role: 'Frontend Developer Freeelance',
+		place: 'Suitmedia Digital Agency',
 		description:
-			"I'm currently working at Suitmedia Digital Agency as a Frontend Developer Intern. I work in a team, developing some project, based by client request for the Frontend Web.",
+			'I resolved technical issues and fixed bugs across various projects while maintaining and updating multiple projects to support ongoing development.',
 		attachments: [],
-		skills: ["Nuxt.js", "Vue.js", "GitLab", "SCSS"],
-		startDate: "Feb 2024",
+		skills: ['Nuxt.js', 'Vue.js', 'GitLab', 'SCSS'],
+		startDate: 'July 2024',
 	},
 	{
-		role: "Fullstack Web Developer Student",
-		place: "Binar Academy",
+		role: 'Frontend Developer Intern',
+		place: 'Suitmedia Digital Agency',
 		description:
-			"I am learning web development, delve deep into JavaScript and its implementation in both frontend and backend development. Here, I also collaborate with a team to develop a final project, which is a MOOC (Massive Open Online Course) application, named Learnhub.",
+			'I built modern, high-quality websites that are compatible with all web browsers using cutting-edge frontend technology. I effectively collaborated with professional teams on web development projects, ensuring timely completion of tasks and efficient code collaboration. By employing a component-based approach, I developed websites to simplify and enhance frontend design. Additionally, I assisted in writing frontend technical documentation for web development projects.',
+		attachments: [],
+		skills: ['Nuxt.js', 'Vue.js', 'GitLab', 'SCSS'],
+		startDate: 'Feb 2024',
+		endDate: 'June 2024',
+	},
+	{
+		role: 'Fullstack Web Developer Student',
+		place: 'Binar Academy',
+		description:
+			'I am learning web development, delve deep into JavaScript and its implementation in both frontend and backend development. Here, I also collaborate with a team to develop a final project, which is a MOOC (Massive Open Online Course) application, named Learnhub.',
 		attachments: [
 			{
-				link: "https://api-learnhub.up.railway.app/api-docs/",
-				name: "Learnhub API",
+				link: 'https://api-learnhub.up.railway.app/api-docs/',
+				name: 'Learnhub API',
 			},
 			{
-				link: "https://admin-learnhub.vercel.app",
-				name: "Learnhub Admin",
+				link: 'https://admin-learnhub.vercel.app',
+				name: 'Learnhub Admin',
 			},
 		],
 		skills: [
-			"Javascript",
-			"React.js",
-			"Next.js",
-			"Express.js",
-			"PostgreSQL",
-			"Sequelize",
-			"Swagger",
-			"MVC Architecture",
-			"Agile Methodologies",
+			'Javascript',
+			'React.js',
+			'Next.js',
+			'Express.js',
+			'PostgreSQL',
+			'Sequelize',
+			'Swagger',
+			'MVC Architecture',
+			'Agile Methodologies',
 		],
-		startDate: "Aug 2023",
-		endDate: "Des 2023",
+		startDate: 'Aug 2023',
+		endDate: 'Des 2023',
 	},
 	{
-		role: "Junior Web Developer Student",
-		place: "Digital Talent Scholarship",
+		role: 'Junior Web Developer Student',
+		place: 'Digital Talent Scholarship',
 		description:
-			"I am learning the fundamentals of web development, including HTML/CSS, Bootstrap, Javascript, PHP, and MySQL. As part of the course, I am working on a final project that involves implementing PHP, MySQL, HTML/CSS, and Javascript.",
+			'I am learning the fundamentals of web development, including HTML/CSS, Bootstrap, Javascript, PHP, and MySQL. As part of the course, I am working on a final project that involves implementing PHP, MySQL, HTML/CSS, and Javascript.',
 		attachments: [],
 		skills: [
-			"Web Development",
-			"HTML",
-			"CSS",
-			"Javascript",
-			"PHP",
-			"MySQL",
-			"Bootstrap",
+			'Web Development',
+			'HTML',
+			'CSS',
+			'Javascript',
+			'PHP',
+			'MySQL',
+			'Bootstrap',
 		],
-		startDate: "Jul 2022",
-		endDate: "Aug 2022",
+		startDate: 'Jul 2022',
+		endDate: 'Aug 2022',
 	},
 ]
 </script>
