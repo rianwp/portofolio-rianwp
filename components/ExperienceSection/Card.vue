@@ -1,7 +1,7 @@
 <template>
 	<div :class="transitionClass" class="flex md:flex-row flex-col gap-y-3">
 		<div class="md:w-1/4 w-full text-sm">
-			{{ startDate }} - {{ endDate || "Present" }}
+			{{ startDate }} - {{ endDate || 'Present' }}
 		</div>
 		<div class="md:w-3/4 w-full md:pl-4 flex flex-col gap-y-3">
 			<div class="flex flex-col">
@@ -30,11 +30,11 @@
 	</div>
 </template>
 <script setup lang="ts">
-import type { ExperienceCard } from "~/types/ExperienceCard"
+import type { ExperienceCard } from '~/types/ExperienceCard'
 
 const { skills, attachments } = defineProps<ExperienceCard>()
 const { transitionClass } = useTailwindClasses()
 
-const isSkillsEmpty = computed(() => skills.length === 0)
-const isAttachmentsEmpty = computed(() => attachments.length === 0)
+const isSkillsEmpty = computed(() => skills?.length === 0)
+const isAttachmentsEmpty = computed(() => attachments?.length === 0)
 </script>

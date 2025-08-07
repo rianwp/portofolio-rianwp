@@ -1,6 +1,6 @@
 <template>
 	<a
-		href="https://drive.google.com/file/d/1H4Ycmce4HgvmJKdQNrFqFGShoqL4b4Zn/view?usp=sharing"
+		href="https://drive.google.com/file/d/1sVM8k5u_Qvfe4UQsYAEb7XhnlCFyP-Dm/view?usp=sharing"
 		class="group/resume flex flex-row items-center gap-x-1 font-semibold"
 		:class="linkClass"
 		target="_blank"

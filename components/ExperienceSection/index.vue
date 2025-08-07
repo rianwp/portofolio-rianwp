@@ -29,20 +29,25 @@ onMounted(() => {
 
 const experiences: ExperienceCard[] = [
 	{
+		role: 'Frontend Developer Fulltime',
+		place: 'Suitmedia Digital Agency',
+		startDate: 'May 2025',
+		skills: ['Nuxt.js', 'SCSS', 'Monolith Project', 'Tailwind CSS'],
+	},
+	{
 		role: 'Frontend Developer Freeelance',
 		place: 'Suitmedia Digital Agency',
 		description:
 			'I resolved technical issues and fixed bugs across various projects while maintaining and updating multiple projects to support ongoing development.',
-		attachments: [],
 		skills: ['Nuxt.js', 'Vue.js', 'GitLab', 'SCSS'],
 		startDate: 'July 2024',
+		endDate: 'May 2025',
 	},
 	{
 		role: 'Frontend Developer Intern',
 		place: 'Suitmedia Digital Agency',
 		description:
 			'I built modern, high-quality websites that are compatible with all web browsers using cutting-edge frontend technology. I effectively collaborated with professional teams on web development projects, ensuring timely completion of tasks and efficient code collaboration. By employing a component-based approach, I developed websites to simplify and enhance frontend design. Additionally, I assisted in writing frontend technical documentation for web development projects.',
-		attachments: [],
 		skills: ['Nuxt.js', 'Vue.js', 'GitLab', 'SCSS'],
 		startDate: 'Feb 2024',
 		endDate: 'June 2024',
